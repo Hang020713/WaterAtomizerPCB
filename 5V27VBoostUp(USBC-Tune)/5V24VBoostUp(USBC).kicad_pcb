@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -95,7 +95,7 @@
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "R1"
-			(at 1.5494 3.3782 360)
+			(at 1.5494 3.3782 0)
 			(layer "F.SilkS")
 			(uuid "98b27dae-0fc1-4c04-b006-ed6b1ded7b2e")
 			(effects
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at -2.54 3.67 360)
+			(at -2.54 3.67 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80c4f483-d5e9-4da8-96d1-e26f183cab57")
@@ -313,7 +313,7 @@
 			(uuid "ad21320f-17b4-4f98-8dd7-25bc82da05a0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.175 0.005 360)
+			(at -3.175 0.005 0)
 			(layer "F.Fab")
 			(uuid "a9d3bf18-6b7e-43b4-b69a-d2aead8b46c7")
 			(effects
@@ -2428,7 +2428,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f62e4dab-ef7a-458c-850e-d6a0116477ac")
@@ -2584,7 +2584,7 @@
 			(uuid "0c722e1d-4210-4cd7-8ff6-8563ddafb4a2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6059bf02-da92-4574-9118-c14c72311c48")
 			(effects
